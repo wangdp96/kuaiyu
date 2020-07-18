@@ -1,0 +1,39 @@
+/*主体页面居中对齐且为1200px*/
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 清除浮动 */
+.clearfix::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    clear: both;
+}
+/* 页面背景色为#cae2ee,字体为幼圆 */
+body {
+    font-family: YouYuan;
+    color: #666;
+}
+/* 显示的class样式 */
+.displayBlock {
+    display: block !important;
+}
+/* 隐藏的class样式 */
+.displayNone {
+    display: none !important;
+}
+/*清除边框的class样式*/
+.clearborder {
+    border: 0 !important;
+}
+/* book_search.vue搜索模块选中样式 */
+.book_search_chosen {
+    background-color: #1B58E6 !important;
+    color: tomato !important;
+}
+/* 输入有误提示样式 */
+.borderDanger {
+    border: 1px solid #f00 !important;
+}
